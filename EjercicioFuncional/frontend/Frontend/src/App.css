@@ -1,0 +1,107 @@
+/* App.css */
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  height: 100vh;  /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+  display: flex;
+  flex-direction: column;  /* Para que el contenido se apile verticalmente */
+  justify-content: center;  /* Centra verticalmente */
+  align-items: center;  /* Centra horizontalmente */
+}
+
+/* Estilos para el contenedor principal */
+h1 {
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Lista de autores */
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;  /* Establece un ancho máximo para la lista */
+}
+
+li {
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #c9302c;
+}
+
+/* Formulario de creación de autor */
+h2 {
+  color: #333;
+  margin-top: 30px;
+}
+
+form {
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;  /* Limita el ancho del formulario */
+}
+
+button[type="submit"] {
+  background-color: #5bc0de;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;  /* Hacer que el botón ocupe todo el ancho del formulario */
+}
+
+button[type="submit"]:hover {
+  background-color: #31b0d5;
+}
+
+/* Estilos para el formulario de edición */
+form button[type="submit"] {
+  background-color: #f0ad4e;
+}
+
+form button[type="submit"]:hover {
+  background-color: #ec971f;
+}
+
+/* Botón de cancelar */
+button[type="button"] {
+  background-color: #d9534f;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;  /* Separar el botón de cancelar del formulario */
+}
+
+button[type="button"]:hover {
+  background-color: #c9302c;
+}
